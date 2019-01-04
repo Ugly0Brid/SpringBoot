@@ -1,0 +1,460 @@
+2019-01-04 16:42:28.493 [main] INFO  com.example.demo.DemoApplication - Starting DemoApplication on zhangfengju-PC with PID 4568 (C:\Users\zhangfengju\Desktop\demo\target\classes started by zhangfengju in C:\Users\zhangfengju\Desktop\demo)
+2019-01-04 16:42:28.496 [main] DEBUG com.example.demo.DemoApplication - Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+2019-01-04 16:42:28.497 [main] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2019-01-04 16:42:28.982 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\Users\zhangfengju\Desktop\demo\target\classes\com\example\demo\mapper\UserMapper.class]
+2019-01-04 16:42:28.982 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'userMapper' and 'com.example.demo.mapper.UserMapper' mapperInterface
+2019-01-04 16:42:28.984 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2019-01-04 16:42:29.738 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8011"]
+2019-01-04 16:42:29.748 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-01-04 16:42:29.748 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-04 16:42:29.756 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_144\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk1.8.0_144\bin;C:\Users\zhangfengju\Desktop\Binaries-LuaDist-batteries-0.9.8-Windows-x86\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\Program Files\TortoiseGit\bin;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 & MySQL Utilities 1.5\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 & MySQL Utilities 1.5\Doctrine extensions for PHP\;C:\Program Files\Java\jdk1.8.0_144\bin;C:\Program Files\Java\jdk1.8.0_144\jre\bin;D:\Program Files\PuTTY\;C:\salt;C:\Program Files (x86)\cwRsync\bin;C:\Program Files (x86)\ICW\bin;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;D:\Program Files\Git\cmd;C:\HashiCorp\Vagrant\bin;D:\Go\bin;D:\Program Files\nodejs\;D:\Program Files\Microsoft VS Code\bin;C:\Users\zhangfengju\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\zhangfengju\AppData\Local\Programs\Python\Python36\;C:\Users\zhangfengju\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\zhangfengju\AppData\Local\Programs\Python\Python37\;C:\Users\zhangfengju\AppData\Local\Programs\Python\Python35\Scripts\;C:\Users\zhangfengju\AppData\Local\Programs\Python\Python35\;C:\Program Files\MySQL\MySQL Server 5.7\bin;D:\Program Files\Oracle\VirtualBox\VirtualBox.exe;E:\mongoDb\bin;D:\docker\Docker Toolbox;C:\Users\zhangfengju\go\bin;C:\Users\zhangfengju\AppData\Roaming\npm;.]
+2019-01-04 16:42:29.854 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-01-04 16:42:29.929 [main] DEBUG com.zaxxer.hikari.HikariConfig - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+2019-01-04 16:42:29.998 [main] DEBUG com.zaxxer.hikari.HikariConfig - HikariPool-1 - configuration:
+2019-01-04 16:42:29.999 [main] DEBUG com.zaxxer.hikari.HikariConfig - allowPoolSuspension.............false
+2019-01-04 16:42:30.000 [main] DEBUG com.zaxxer.hikari.HikariConfig - autoCommit......................true
+2019-01-04 16:42:30.000 [main] DEBUG com.zaxxer.hikari.HikariConfig - catalog.........................none
+2019-01-04 16:42:30.000 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionInitSql...............none
+2019-01-04 16:42:30.000 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionTestQuery.............none
+2019-01-04 16:42:30.000 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionTimeout...............30000
+2019-01-04 16:42:30.000 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSource......................none
+2019-01-04 16:42:30.000 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceClassName.............none
+2019-01-04 16:42:30.000 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceJNDI..................none
+2019-01-04 16:42:30.001 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceProperties............{password=<masked>}
+2019-01-04 16:42:30.001 [main] DEBUG com.zaxxer.hikari.HikariConfig - driverClassName................."com.mysql.cj.jdbc.Driver"
+2019-01-04 16:42:30.001 [main] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckProperties...........{}
+2019-01-04 16:42:30.001 [main] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckRegistry.............none
+2019-01-04 16:42:30.001 [main] DEBUG com.zaxxer.hikari.HikariConfig - idleTimeout.....................600000
+2019-01-04 16:42:30.001 [main] DEBUG com.zaxxer.hikari.HikariConfig - initializationFailTimeout.......1
+2019-01-04 16:42:30.001 [main] DEBUG com.zaxxer.hikari.HikariConfig - isolateInternalQueries..........false
+2019-01-04 16:42:30.001 [main] DEBUG com.zaxxer.hikari.HikariConfig - jdbcUrl.........................jdbc:mysql://localhost:13306/springboot?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=UTC
+2019-01-04 16:42:30.001 [main] DEBUG com.zaxxer.hikari.HikariConfig - leakDetectionThreshold..........0
+2019-01-04 16:42:30.001 [main] DEBUG com.zaxxer.hikari.HikariConfig - maxLifetime.....................1800000
+2019-01-04 16:42:30.002 [main] DEBUG com.zaxxer.hikari.HikariConfig - maximumPoolSize.................10
+2019-01-04 16:42:30.002 [main] DEBUG com.zaxxer.hikari.HikariConfig - metricRegistry..................none
+2019-01-04 16:42:30.002 [main] DEBUG com.zaxxer.hikari.HikariConfig - metricsTrackerFactory...........none
+2019-01-04 16:42:30.002 [main] DEBUG com.zaxxer.hikari.HikariConfig - minimumIdle.....................10
+2019-01-04 16:42:30.002 [main] DEBUG com.zaxxer.hikari.HikariConfig - password........................<masked>
+2019-01-04 16:42:30.002 [main] DEBUG com.zaxxer.hikari.HikariConfig - poolName........................"HikariPool-1"
+2019-01-04 16:42:30.002 [main] DEBUG com.zaxxer.hikari.HikariConfig - readOnly........................false
+2019-01-04 16:42:30.002 [main] DEBUG com.zaxxer.hikari.HikariConfig - registerMbeans..................false
+2019-01-04 16:42:30.002 [main] DEBUG com.zaxxer.hikari.HikariConfig - scheduledExecutor...............none
+2019-01-04 16:42:30.002 [main] DEBUG com.zaxxer.hikari.HikariConfig - schema..........................none
+2019-01-04 16:42:30.002 [main] DEBUG com.zaxxer.hikari.HikariConfig - threadFactory...................internal
+2019-01-04 16:42:30.002 [main] DEBUG com.zaxxer.hikari.HikariConfig - transactionIsolation............default
+2019-01-04 16:42:30.002 [main] DEBUG com.zaxxer.hikari.HikariConfig - username........................"root"
+2019-01-04 16:42:30.002 [main] DEBUG com.zaxxer.hikari.HikariConfig - validationTimeout...............5000
+2019-01-04 16:42:30.003 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-01-04 16:42:30.094 [main] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@31a2a9fa
+2019-01-04 16:42:30.095 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-01-04 16:42:30.220 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+2019-01-04 16:42:30.226 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@185ad9df
+2019-01-04 16:42:30.229 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6c4f2eae
+2019-01-04 16:42:30.232 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2213157d
+2019-01-04 16:42:30.235 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@39397221
+2019-01-04 16:42:30.238 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@66a83715
+2019-01-04 16:42:30.241 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@70adfe45
+2019-01-04 16:42:30.244 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3b404ed6
+2019-01-04 16:42:30.247 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4bef05b2
+2019-01-04 16:42:30.250 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4708b81
+2019-01-04 16:42:30.250 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2019-01-04 16:42:30.895 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-01-04 16:42:30.936 [main] DEBUG org.apache.ibatis.io.VFS - Using VFS adapter org.mybatis.spring.boot.autoconfigure.SpringBootVFS
+2019-01-04 16:42:30.937 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.example.demo.domain.User matches criteria [is assignable to Object]
+2019-01-04 16:42:30.938 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Scanned package: 'com.example.demo.domain' for aliases
+2019-01-04 16:42:31.050 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [C:\Users\zhangfengju\Desktop\demo\target\classes\mapping\UserMapper.xml]'
+2019-01-04 16:42:31.275 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-01-04 16:42:31.458 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8011"]
+2019-01-04 16:42:31.468 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-01-04 16:42:31.485 [main] INFO  com.example.demo.DemoApplication - Started DemoApplication in 3.875 seconds (JVM running for 4.968)
+2019-01-04 16:43:00.224 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-01-04 16:43:30.227 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-01-04 16:44:00.230 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-01-04 16:44:30.233 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-01-04 16:45:00.236 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-01-04 16:45:30.239 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-01-04 16:46:00.242 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-01-04 16:46:25.381 [Thread-12] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2019-01-04 16:46:25.381 [Thread-12] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+2019-01-04 16:46:25.382 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@31a2a9fa: (connection evicted)
+2019-01-04 16:46:25.383 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@185ad9df: (connection evicted)
+2019-01-04 16:46:25.383 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6c4f2eae: (connection evicted)
+2019-01-04 16:46:25.383 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2213157d: (connection evicted)
+2019-01-04 16:46:25.383 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@39397221: (connection evicted)
+2019-01-04 16:46:25.383 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@66a83715: (connection evicted)
+2019-01-04 16:46:25.384 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@70adfe45: (connection evicted)
+2019-01-04 16:46:25.384 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3b404ed6: (connection evicted)
+2019-01-04 16:46:25.384 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4bef05b2: (connection evicted)
+2019-01-04 16:46:25.384 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4708b81: (connection evicted)
+2019-01-04 16:46:25.384 [Thread-12] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2019-01-04 16:46:25.384 [Thread-12] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2019-01-04 16:46:43.275 [main] INFO  com.example.demo.DemoApplication - Starting DemoApplication on zhangfengju-PC with PID 10904 (C:\Users\zhangfengju\Desktop\demo\target\classes started by zhangfengju in C:\Users\zhangfengju\Desktop\demo)
+2019-01-04 16:46:43.278 [main] DEBUG com.example.demo.DemoApplication - Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+2019-01-04 16:46:43.281 [main] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2019-01-04 16:46:43.845 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\Users\zhangfengju\Desktop\demo\target\classes\com\example\demo\mapper\UserMapper.class]
+2019-01-04 16:46:43.845 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'userMapper' and 'com.example.demo.mapper.UserMapper' mapperInterface
+2019-01-04 16:46:43.846 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2019-01-04 16:46:44.570 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8011"]
+2019-01-04 16:46:44.578 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-01-04 16:46:44.578 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-04 16:46:44.585 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_144\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk1.8.0_144\bin;C:\Users\zhangfengju\Desktop\Binaries-LuaDist-batteries-0.9.8-Windows-x86\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\Program Files\TortoiseGit\bin;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 & MySQL Utilities 1.5\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 & MySQL Utilities 1.5\Doctrine extensions for PHP\;C:\Program Files\Java\jdk1.8.0_144\bin;C:\Program Files\Java\jdk1.8.0_144\jre\bin;D:\Program Files\PuTTY\;C:\salt;C:\Program Files (x86)\cwRsync\bin;C:\Program Files (x86)\ICW\bin;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;D:\Program Files\Git\cmd;C:\HashiCorp\Vagrant\bin;D:\Go\bin;D:\Program Files\nodejs\;D:\Program Files\Microsoft VS Code\bin;C:\Users\zhangfengju\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\zhangfengju\AppData\Local\Programs\Python\Python36\;C:\Users\zhangfengju\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\zhangfengju\AppData\Local\Programs\Python\Python37\;C:\Users\zhangfengju\AppData\Local\Programs\Python\Python35\Scripts\;C:\Users\zhangfengju\AppData\Local\Programs\Python\Python35\;C:\Program Files\MySQL\MySQL Server 5.7\bin;D:\Program Files\Oracle\VirtualBox\VirtualBox.exe;E:\mongoDb\bin;D:\docker\Docker Toolbox;C:\Users\zhangfengju\go\bin;C:\Users\zhangfengju\AppData\Roaming\npm;.]
+2019-01-04 16:46:44.670 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-01-04 16:46:44.733 [main] DEBUG com.zaxxer.hikari.HikariConfig - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+2019-01-04 16:46:44.785 [main] DEBUG com.zaxxer.hikari.HikariConfig - HikariPool-1 - configuration:
+2019-01-04 16:46:44.787 [main] DEBUG com.zaxxer.hikari.HikariConfig - allowPoolSuspension.............false
+2019-01-04 16:46:44.787 [main] DEBUG com.zaxxer.hikari.HikariConfig - autoCommit......................true
+2019-01-04 16:46:44.788 [main] DEBUG com.zaxxer.hikari.HikariConfig - catalog.........................none
+2019-01-04 16:46:44.788 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionInitSql...............none
+2019-01-04 16:46:44.788 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionTestQuery.............none
+2019-01-04 16:46:44.788 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionTimeout...............30000
+2019-01-04 16:46:44.788 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSource......................none
+2019-01-04 16:46:44.788 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceClassName.............none
+2019-01-04 16:46:44.788 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceJNDI..................none
+2019-01-04 16:46:44.788 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceProperties............{password=<masked>}
+2019-01-04 16:46:44.788 [main] DEBUG com.zaxxer.hikari.HikariConfig - driverClassName................."com.mysql.cj.jdbc.Driver"
+2019-01-04 16:46:44.788 [main] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckProperties...........{}
+2019-01-04 16:46:44.788 [main] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckRegistry.............none
+2019-01-04 16:46:44.789 [main] DEBUG com.zaxxer.hikari.HikariConfig - idleTimeout.....................600000
+2019-01-04 16:46:44.789 [main] DEBUG com.zaxxer.hikari.HikariConfig - initializationFailTimeout.......1
+2019-01-04 16:46:44.789 [main] DEBUG com.zaxxer.hikari.HikariConfig - isolateInternalQueries..........false
+2019-01-04 16:46:44.789 [main] DEBUG com.zaxxer.hikari.HikariConfig - jdbcUrl.........................jdbc:mysql://localhost:13306/springboot?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=UTC
+2019-01-04 16:46:44.789 [main] DEBUG com.zaxxer.hikari.HikariConfig - leakDetectionThreshold..........0
+2019-01-04 16:46:44.789 [main] DEBUG com.zaxxer.hikari.HikariConfig - maxLifetime.....................1800000
+2019-01-04 16:46:44.789 [main] DEBUG com.zaxxer.hikari.HikariConfig - maximumPoolSize.................10
+2019-01-04 16:46:44.789 [main] DEBUG com.zaxxer.hikari.HikariConfig - metricRegistry..................none
+2019-01-04 16:46:44.789 [main] DEBUG com.zaxxer.hikari.HikariConfig - metricsTrackerFactory...........none
+2019-01-04 16:46:44.789 [main] DEBUG com.zaxxer.hikari.HikariConfig - minimumIdle.....................10
+2019-01-04 16:46:44.789 [main] DEBUG com.zaxxer.hikari.HikariConfig - password........................<masked>
+2019-01-04 16:46:44.789 [main] DEBUG com.zaxxer.hikari.HikariConfig - poolName........................"HikariPool-1"
+2019-01-04 16:46:44.789 [main] DEBUG com.zaxxer.hikari.HikariConfig - readOnly........................false
+2019-01-04 16:46:44.789 [main] DEBUG com.zaxxer.hikari.HikariConfig - registerMbeans..................false
+2019-01-04 16:46:44.790 [main] DEBUG com.zaxxer.hikari.HikariConfig - scheduledExecutor...............none
+2019-01-04 16:46:44.790 [main] DEBUG com.zaxxer.hikari.HikariConfig - schema..........................none
+2019-01-04 16:46:44.790 [main] DEBUG com.zaxxer.hikari.HikariConfig - threadFactory...................internal
+2019-01-04 16:46:44.790 [main] DEBUG com.zaxxer.hikari.HikariConfig - transactionIsolation............default
+2019-01-04 16:46:44.790 [main] DEBUG com.zaxxer.hikari.HikariConfig - username........................"root"
+2019-01-04 16:46:44.790 [main] DEBUG com.zaxxer.hikari.HikariConfig - validationTimeout...............5000
+2019-01-04 16:46:44.790 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-01-04 16:46:44.967 [main] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@642a16aa
+2019-01-04 16:46:44.969 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-01-04 16:46:45.070 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+2019-01-04 16:46:45.073 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@adc896e
+2019-01-04 16:46:45.076 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7e5b7899
+2019-01-04 16:46:45.078 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2ef0755f
+2019-01-04 16:46:45.081 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2bbfb256
+2019-01-04 16:46:45.083 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6422c777
+2019-01-04 16:46:45.086 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1ed81930
+2019-01-04 16:46:45.089 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@554ff1c5
+2019-01-04 16:46:45.091 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@742275db
+2019-01-04 16:46:45.094 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1f0d60c5
+2019-01-04 16:46:45.094 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2019-01-04 16:46:45.510 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-01-04 16:46:45.574 [main] DEBUG org.apache.ibatis.io.VFS - Using VFS adapter org.mybatis.spring.boot.autoconfigure.SpringBootVFS
+2019-01-04 16:46:45.575 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.example.demo.domain.User matches criteria [is assignable to Object]
+2019-01-04 16:46:45.575 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Scanned package: 'com.example.demo.domain' for aliases
+2019-01-04 16:46:45.653 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [C:\Users\zhangfengju\Desktop\demo\target\classes\mapping\UserMapper.xml]'
+2019-01-04 16:46:45.868 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-01-04 16:46:46.064 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8011"]
+2019-01-04 16:46:46.075 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-01-04 16:46:46.090 [main] INFO  com.example.demo.DemoApplication - Started DemoApplication in 3.152 seconds (JVM running for 4.228)
+2019-01-04 16:47:15.073 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-01-04 16:47:45.076 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-01-04 16:48:15.078 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-01-04 16:48:45.081 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-01-04 16:49:15.084 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-01-04 16:49:42.031 [Thread-10] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2019-01-04 16:49:42.031 [Thread-10] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+2019-01-04 16:49:42.032 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@642a16aa: (connection evicted)
+2019-01-04 16:49:42.033 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@adc896e: (connection evicted)
+2019-01-04 16:49:42.034 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7e5b7899: (connection evicted)
+2019-01-04 16:49:42.034 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2ef0755f: (connection evicted)
+2019-01-04 16:49:42.034 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2bbfb256: (connection evicted)
+2019-01-04 16:49:42.034 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6422c777: (connection evicted)
+2019-01-04 16:49:42.034 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1ed81930: (connection evicted)
+2019-01-04 16:49:42.034 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@554ff1c5: (connection evicted)
+2019-01-04 16:49:42.034 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@742275db: (connection evicted)
+2019-01-04 16:49:42.034 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1f0d60c5: (connection evicted)
+2019-01-04 16:49:42.035 [Thread-10] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2019-01-04 16:49:42.035 [Thread-10] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2019-01-04 16:49:48.289 [main] INFO  com.example.demo.DemoApplication - Starting DemoApplication on zhangfengju-PC with PID 9208 (C:\Users\zhangfengju\Desktop\demo\target\classes started by zhangfengju in C:\Users\zhangfengju\Desktop\demo)
+2019-01-04 16:49:48.292 [main] DEBUG com.example.demo.DemoApplication - Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+2019-01-04 16:49:48.293 [main] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2019-01-04 16:49:48.752 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\Users\zhangfengju\Desktop\demo\target\classes\com\example\demo\mapper\UserMapper.class]
+2019-01-04 16:49:48.753 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'userMapper' and 'com.example.demo.mapper.UserMapper' mapperInterface
+2019-01-04 16:49:48.754 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2019-01-04 16:49:49.437 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8011"]
+2019-01-04 16:49:49.444 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-01-04 16:49:49.445 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-04 16:49:49.451 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_144\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk1.8.0_144\bin;C:\Users\zhangfengju\Desktop\Binaries-LuaDist-batteries-0.9.8-Windows-x86\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\Program Files\TortoiseGit\bin;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 & MySQL Utilities 1.5\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 & MySQL Utilities 1.5\Doctrine extensions for PHP\;C:\Program Files\Java\jdk1.8.0_144\bin;C:\Program Files\Java\jdk1.8.0_144\jre\bin;D:\Program Files\PuTTY\;C:\salt;C:\Program Files (x86)\cwRsync\bin;C:\Program Files (x86)\ICW\bin;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;D:\Program Files\Git\cmd;C:\HashiCorp\Vagrant\bin;D:\Go\bin;D:\Program Files\nodejs\;D:\Program Files\Microsoft VS Code\bin;C:\Users\zhangfengju\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\zhangfengju\AppData\Local\Programs\Python\Python36\;C:\Users\zhangfengju\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\zhangfengju\AppData\Local\Programs\Python\Python37\;C:\Users\zhangfengju\AppData\Local\Programs\Python\Python35\Scripts\;C:\Users\zhangfengju\AppData\Local\Programs\Python\Python35\;C:\Program Files\MySQL\MySQL Server 5.7\bin;D:\Program Files\Oracle\VirtualBox\VirtualBox.exe;E:\mongoDb\bin;D:\docker\Docker Toolbox;C:\Users\zhangfengju\go\bin;C:\Users\zhangfengju\AppData\Roaming\npm;.]
+2019-01-04 16:49:49.540 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-01-04 16:49:49.613 [main] DEBUG com.zaxxer.hikari.HikariConfig - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+2019-01-04 16:49:49.674 [main] DEBUG com.zaxxer.hikari.HikariConfig - HikariPool-1 - configuration:
+2019-01-04 16:49:49.676 [main] DEBUG com.zaxxer.hikari.HikariConfig - allowPoolSuspension.............false
+2019-01-04 16:49:49.676 [main] DEBUG com.zaxxer.hikari.HikariConfig - autoCommit......................true
+2019-01-04 16:49:49.676 [main] DEBUG com.zaxxer.hikari.HikariConfig - catalog.........................none
+2019-01-04 16:49:49.676 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionInitSql...............none
+2019-01-04 16:49:49.676 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionTestQuery.............none
+2019-01-04 16:49:49.676 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionTimeout...............30000
+2019-01-04 16:49:49.676 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSource......................none
+2019-01-04 16:49:49.677 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceClassName.............none
+2019-01-04 16:49:49.677 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceJNDI..................none
+2019-01-04 16:49:49.677 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceProperties............{password=<masked>}
+2019-01-04 16:49:49.677 [main] DEBUG com.zaxxer.hikari.HikariConfig - driverClassName................."com.mysql.cj.jdbc.Driver"
+2019-01-04 16:49:49.677 [main] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckProperties...........{}
+2019-01-04 16:49:49.677 [main] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckRegistry.............none
+2019-01-04 16:49:49.677 [main] DEBUG com.zaxxer.hikari.HikariConfig - idleTimeout.....................600000
+2019-01-04 16:49:49.678 [main] DEBUG com.zaxxer.hikari.HikariConfig - initializationFailTimeout.......1
+2019-01-04 16:49:49.678 [main] DEBUG com.zaxxer.hikari.HikariConfig - isolateInternalQueries..........false
+2019-01-04 16:49:49.678 [main] DEBUG com.zaxxer.hikari.HikariConfig - jdbcUrl.........................jdbc:mysql://localhost:13306/springboot?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=UTC
+2019-01-04 16:49:49.678 [main] DEBUG com.zaxxer.hikari.HikariConfig - leakDetectionThreshold..........0
+2019-01-04 16:49:49.678 [main] DEBUG com.zaxxer.hikari.HikariConfig - maxLifetime.....................1800000
+2019-01-04 16:49:49.678 [main] DEBUG com.zaxxer.hikari.HikariConfig - maximumPoolSize.................10
+2019-01-04 16:49:49.678 [main] DEBUG com.zaxxer.hikari.HikariConfig - metricRegistry..................none
+2019-01-04 16:49:49.678 [main] DEBUG com.zaxxer.hikari.HikariConfig - metricsTrackerFactory...........none
+2019-01-04 16:49:49.678 [main] DEBUG com.zaxxer.hikari.HikariConfig - minimumIdle.....................10
+2019-01-04 16:49:49.678 [main] DEBUG com.zaxxer.hikari.HikariConfig - password........................<masked>
+2019-01-04 16:49:49.678 [main] DEBUG com.zaxxer.hikari.HikariConfig - poolName........................"HikariPool-1"
+2019-01-04 16:49:49.679 [main] DEBUG com.zaxxer.hikari.HikariConfig - readOnly........................false
+2019-01-04 16:49:49.679 [main] DEBUG com.zaxxer.hikari.HikariConfig - registerMbeans..................false
+2019-01-04 16:49:49.679 [main] DEBUG com.zaxxer.hikari.HikariConfig - scheduledExecutor...............none
+2019-01-04 16:49:49.679 [main] DEBUG com.zaxxer.hikari.HikariConfig - schema..........................none
+2019-01-04 16:49:49.679 [main] DEBUG com.zaxxer.hikari.HikariConfig - threadFactory...................internal
+2019-01-04 16:49:49.679 [main] DEBUG com.zaxxer.hikari.HikariConfig - transactionIsolation............default
+2019-01-04 16:49:49.679 [main] DEBUG com.zaxxer.hikari.HikariConfig - username........................"root"
+2019-01-04 16:49:49.679 [main] DEBUG com.zaxxer.hikari.HikariConfig - validationTimeout...............5000
+2019-01-04 16:49:49.679 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-01-04 16:49:49.840 [main] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@234c5e41
+2019-01-04 16:49:49.841 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-01-04 16:49:49.942 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+2019-01-04 16:49:49.945 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4fd7d7b8
+2019-01-04 16:49:49.947 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3b1568b3
+2019-01-04 16:49:49.950 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7b6d905a
+2019-01-04 16:49:49.953 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6eb4a122
+2019-01-04 16:49:49.956 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@78fd1967
+2019-01-04 16:49:49.959 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@13c93d46
+2019-01-04 16:49:49.961 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6bf5f728
+2019-01-04 16:49:49.964 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@55663dc4
+2019-01-04 16:49:49.967 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@e4b5299
+2019-01-04 16:49:49.967 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2019-01-04 16:49:50.367 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-01-04 16:49:50.407 [main] DEBUG org.apache.ibatis.io.VFS - Using VFS adapter org.mybatis.spring.boot.autoconfigure.SpringBootVFS
+2019-01-04 16:49:50.408 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.example.demo.domain.User matches criteria [is assignable to Object]
+2019-01-04 16:49:50.408 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Scanned package: 'com.example.demo.domain' for aliases
+2019-01-04 16:49:50.490 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [C:\Users\zhangfengju\Desktop\demo\target\classes\mapping\UserMapper.xml]'
+2019-01-04 16:49:50.735 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-01-04 16:49:50.919 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8011"]
+2019-01-04 16:49:50.929 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-01-04 16:49:50.946 [main] INFO  com.example.demo.DemoApplication - Started DemoApplication in 3.009 seconds (JVM running for 3.893)
+2019-01-04 16:50:11.027 [Thread-10] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2019-01-04 16:50:11.027 [Thread-10] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+2019-01-04 16:50:11.028 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@234c5e41: (connection evicted)
+2019-01-04 16:50:11.030 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4fd7d7b8: (connection evicted)
+2019-01-04 16:50:11.030 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3b1568b3: (connection evicted)
+2019-01-04 16:50:11.030 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7b6d905a: (connection evicted)
+2019-01-04 16:50:11.030 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6eb4a122: (connection evicted)
+2019-01-04 16:50:11.030 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@78fd1967: (connection evicted)
+2019-01-04 16:50:11.030 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@13c93d46: (connection evicted)
+2019-01-04 16:50:11.031 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6bf5f728: (connection evicted)
+2019-01-04 16:50:11.031 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@55663dc4: (connection evicted)
+2019-01-04 16:50:11.031 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@e4b5299: (connection evicted)
+2019-01-04 16:50:11.031 [Thread-10] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2019-01-04 16:50:11.031 [Thread-10] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2019-01-04 16:50:14.843 [main] INFO  com.example.demo.DemoApplication - Starting DemoApplication on zhangfengju-PC with PID 11872 (C:\Users\zhangfengju\Desktop\demo\target\classes started by zhangfengju in C:\Users\zhangfengju\Desktop\demo)
+2019-01-04 16:50:14.847 [main] DEBUG com.example.demo.DemoApplication - Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+2019-01-04 16:50:14.848 [main] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2019-01-04 16:50:15.228 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\Users\zhangfengju\Desktop\demo\target\classes\com\example\demo\mapper\UserMapper.class]
+2019-01-04 16:50:15.229 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'userMapper' and 'com.example.demo.mapper.UserMapper' mapperInterface
+2019-01-04 16:50:15.230 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2019-01-04 16:50:15.947 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8011"]
+2019-01-04 16:50:15.955 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-01-04 16:50:15.956 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-04 16:50:15.962 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_144\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk1.8.0_144\bin;C:\Users\zhangfengju\Desktop\Binaries-LuaDist-batteries-0.9.8-Windows-x86\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\Program Files\TortoiseGit\bin;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 & MySQL Utilities 1.5\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 & MySQL Utilities 1.5\Doctrine extensions for PHP\;C:\Program Files\Java\jdk1.8.0_144\bin;C:\Program Files\Java\jdk1.8.0_144\jre\bin;D:\Program Files\PuTTY\;C:\salt;C:\Program Files (x86)\cwRsync\bin;C:\Program Files (x86)\ICW\bin;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;D:\Program Files\Git\cmd;C:\HashiCorp\Vagrant\bin;D:\Go\bin;D:\Program Files\nodejs\;D:\Program Files\Microsoft VS Code\bin;C:\Users\zhangfengju\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\zhangfengju\AppData\Local\Programs\Python\Python36\;C:\Users\zhangfengju\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\zhangfengju\AppData\Local\Programs\Python\Python37\;C:\Users\zhangfengju\AppData\Local\Programs\Python\Python35\Scripts\;C:\Users\zhangfengju\AppData\Local\Programs\Python\Python35\;C:\Program Files\MySQL\MySQL Server 5.7\bin;D:\Program Files\Oracle\VirtualBox\VirtualBox.exe;E:\mongoDb\bin;D:\docker\Docker Toolbox;C:\Users\zhangfengju\go\bin;C:\Users\zhangfengju\AppData\Roaming\npm;.]
+2019-01-04 16:50:16.047 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-01-04 16:50:16.117 [main] DEBUG com.zaxxer.hikari.HikariConfig - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+2019-01-04 16:50:16.194 [main] DEBUG com.zaxxer.hikari.HikariConfig - HikariPool-1 - configuration:
+2019-01-04 16:50:16.196 [main] DEBUG com.zaxxer.hikari.HikariConfig - allowPoolSuspension.............false
+2019-01-04 16:50:16.196 [main] DEBUG com.zaxxer.hikari.HikariConfig - autoCommit......................true
+2019-01-04 16:50:16.196 [main] DEBUG com.zaxxer.hikari.HikariConfig - catalog.........................none
+2019-01-04 16:50:16.196 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionInitSql...............none
+2019-01-04 16:50:16.196 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionTestQuery.............none
+2019-01-04 16:50:16.196 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionTimeout...............30000
+2019-01-04 16:50:16.196 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSource......................none
+2019-01-04 16:50:16.196 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceClassName.............none
+2019-01-04 16:50:16.196 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceJNDI..................none
+2019-01-04 16:50:16.197 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceProperties............{password=<masked>}
+2019-01-04 16:50:16.197 [main] DEBUG com.zaxxer.hikari.HikariConfig - driverClassName................."com.mysql.cj.jdbc.Driver"
+2019-01-04 16:50:16.197 [main] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckProperties...........{}
+2019-01-04 16:50:16.197 [main] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckRegistry.............none
+2019-01-04 16:50:16.197 [main] DEBUG com.zaxxer.hikari.HikariConfig - idleTimeout.....................600000
+2019-01-04 16:50:16.197 [main] DEBUG com.zaxxer.hikari.HikariConfig - initializationFailTimeout.......1
+2019-01-04 16:50:16.197 [main] DEBUG com.zaxxer.hikari.HikariConfig - isolateInternalQueries..........false
+2019-01-04 16:50:16.197 [main] DEBUG com.zaxxer.hikari.HikariConfig - jdbcUrl.........................jdbc:mysql://localhost:13306/springboot?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=UTC
+2019-01-04 16:50:16.197 [main] DEBUG com.zaxxer.hikari.HikariConfig - leakDetectionThreshold..........0
+2019-01-04 16:50:16.197 [main] DEBUG com.zaxxer.hikari.HikariConfig - maxLifetime.....................1800000
+2019-01-04 16:50:16.197 [main] DEBUG com.zaxxer.hikari.HikariConfig - maximumPoolSize.................10
+2019-01-04 16:50:16.198 [main] DEBUG com.zaxxer.hikari.HikariConfig - metricRegistry..................none
+2019-01-04 16:50:16.198 [main] DEBUG com.zaxxer.hikari.HikariConfig - metricsTrackerFactory...........none
+2019-01-04 16:50:16.198 [main] DEBUG com.zaxxer.hikari.HikariConfig - minimumIdle.....................10
+2019-01-04 16:50:16.198 [main] DEBUG com.zaxxer.hikari.HikariConfig - password........................<masked>
+2019-01-04 16:50:16.198 [main] DEBUG com.zaxxer.hikari.HikariConfig - poolName........................"HikariPool-1"
+2019-01-04 16:50:16.198 [main] DEBUG com.zaxxer.hikari.HikariConfig - readOnly........................false
+2019-01-04 16:50:16.198 [main] DEBUG com.zaxxer.hikari.HikariConfig - registerMbeans..................false
+2019-01-04 16:50:16.198 [main] DEBUG com.zaxxer.hikari.HikariConfig - scheduledExecutor...............none
+2019-01-04 16:50:16.198 [main] DEBUG com.zaxxer.hikari.HikariConfig - schema..........................none
+2019-01-04 16:50:16.198 [main] DEBUG com.zaxxer.hikari.HikariConfig - threadFactory...................internal
+2019-01-04 16:50:16.198 [main] DEBUG com.zaxxer.hikari.HikariConfig - transactionIsolation............default
+2019-01-04 16:50:16.198 [main] DEBUG com.zaxxer.hikari.HikariConfig - username........................"root"
+2019-01-04 16:50:16.198 [main] DEBUG com.zaxxer.hikari.HikariConfig - validationTimeout...............5000
+2019-01-04 16:50:16.198 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-01-04 16:50:16.358 [main] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3453acd2
+2019-01-04 16:50:16.360 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-01-04 16:50:16.461 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+2019-01-04 16:50:16.465 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@78973f41
+2019-01-04 16:50:16.468 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@c62f10a
+2019-01-04 16:50:16.471 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@759ab94c
+2019-01-04 16:50:16.474 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@59f46863
+2019-01-04 16:50:16.479 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@48e4ab6e
+2019-01-04 16:50:16.481 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@45b79d02
+2019-01-04 16:50:16.484 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6b699c8c
+2019-01-04 16:50:16.489 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1e2ec36
+2019-01-04 16:50:16.491 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1cbf74e8
+2019-01-04 16:50:16.492 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2019-01-04 16:50:16.899 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-01-04 16:50:16.937 [main] DEBUG org.apache.ibatis.io.VFS - Using VFS adapter org.mybatis.spring.boot.autoconfigure.SpringBootVFS
+2019-01-04 16:50:16.939 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.example.demo.domain.User matches criteria [is assignable to Object]
+2019-01-04 16:50:16.940 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Scanned package: 'com.example.demo.domain' for aliases
+2019-01-04 16:50:17.027 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [C:\Users\zhangfengju\Desktop\demo\target\classes\mapping\UserMapper.xml]'
+2019-01-04 16:50:17.273 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-01-04 16:50:17.461 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8011"]
+2019-01-04 16:50:17.468 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-01-04 16:50:17.486 [main] INFO  com.example.demo.DemoApplication - Started DemoApplication in 3.31 seconds (JVM running for 4.109)
+2019-01-04 16:50:28.938 [http-nio-8011-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-04 16:50:29.060 [http-nio-8011-exec-1] INFO  com.example.demo.controller.UserController - 查询用户
+2019-01-04 16:50:29.084 [http-nio-8011-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-01-04 16:50:29.090 [http-nio-8011-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5907bab9] was not registered for synchronization because synchronization is not active
+2019-01-04 16:50:29.097 [http-nio-8011-exec-1] DEBUG org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1381225987 wrapping com.mysql.cj.jdbc.ConnectionImpl@3453acd2] will not be managed by Spring
+2019-01-04 16:50:29.098 [http-nio-8011-exec-1] DEBUG com.example.demo.mapper.UserMapper.Sel - ==>  Preparing: select * from user where id = ? 
+2019-01-04 16:50:29.115 [http-nio-8011-exec-1] DEBUG com.example.demo.mapper.UserMapper.Sel - ==> Parameters: 1(Integer)
+2019-01-04 16:50:29.128 [http-nio-8011-exec-1] DEBUG com.example.demo.mapper.UserMapper.Sel - <==      Total: 1
+2019-01-04 16:50:29.128 [http-nio-8011-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5907bab9]
+2019-01-04 16:50:46.464 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-01-04 16:51:16.467 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-01-04 16:51:46.470 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-01-04 16:52:16.473 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-01-04 16:52:46.478 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-01-04 16:53:16.481 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-01-04 16:53:46.484 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-01-04 16:54:16.487 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-01-04 16:54:46.490 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-01-04 16:55:16.493 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-01-04 16:55:46.496 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-01-04 16:56:16.499 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-01-04 16:56:46.502 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-01-04 16:57:16.505 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-01-04 16:57:46.508 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-01-04 16:58:16.511 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-01-04 16:58:46.513 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-01-04 16:59:16.516 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-01-04 16:59:46.519 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-01-04 17:00:16.522 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-01-04 17:00:46.525 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-01-04 17:01:16.528 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-01-04 17:01:46.531 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-01-04 17:02:16.533 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-01-04 17:02:46.536 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-01-04 17:03:16.539 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-01-04 17:03:46.542 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-01-04 17:04:16.545 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2019-01-04 17:04:27.154 [Thread-10] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2019-01-04 17:04:27.154 [Thread-10] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+2019-01-04 17:04:27.157 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3453acd2: (connection evicted)
+2019-01-04 17:04:27.159 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@78973f41: (connection evicted)
+2019-01-04 17:04:27.159 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@c62f10a: (connection evicted)
+2019-01-04 17:04:27.159 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@759ab94c: (connection evicted)
+2019-01-04 17:04:27.160 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@59f46863: (connection evicted)
+2019-01-04 17:04:27.160 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@48e4ab6e: (connection evicted)
+2019-01-04 17:04:27.161 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@45b79d02: (connection evicted)
+2019-01-04 17:04:27.162 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6b699c8c: (connection evicted)
+2019-01-04 17:04:27.165 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1e2ec36: (connection evicted)
+2019-01-04 17:04:27.166 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1cbf74e8: (connection evicted)
+2019-01-04 17:04:27.168 [Thread-10] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2019-01-04 17:04:27.168 [Thread-10] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2019-01-04 17:10:01.342 [main] INFO  com.example.demo.SpringBootDemoApplication - Starting SpringBootDemoApplication on zhangfengju-PC with PID 1220 (F:\java\SpringBoot\target\classes started by zhangfengju in F:\java\SpringBoot)
+2019-01-04 17:10:01.344 [main] DEBUG com.example.demo.SpringBootDemoApplication - Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+2019-01-04 17:10:01.346 [main] INFO  com.example.demo.SpringBootDemoApplication - No active profile set, falling back to default profiles: default
+2019-01-04 17:10:01.779 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [F:\java\SpringBoot\target\classes\com\example\demo\mapper\UserMapper.class]
+2019-01-04 17:10:01.780 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'userMapper' and 'com.example.demo.mapper.UserMapper' mapperInterface
+2019-01-04 17:10:01.781 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2019-01-04 17:10:02.486 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8011"]
+2019-01-04 17:10:02.505 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-01-04 17:10:02.506 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-04 17:10:02.513 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_144\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk1.8.0_144\bin;C:\Users\zhangfengju\Desktop\Binaries-LuaDist-batteries-0.9.8-Windows-x86\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\Program Files\TortoiseGit\bin;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 & MySQL Utilities 1.5\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 & MySQL Utilities 1.5\Doctrine extensions for PHP\;C:\Program Files\Java\jdk1.8.0_144\bin;C:\Program Files\Java\jdk1.8.0_144\jre\bin;D:\Program Files\PuTTY\;C:\salt;C:\Program Files (x86)\cwRsync\bin;C:\Program Files (x86)\ICW\bin;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;D:\Program Files\Git\cmd;C:\HashiCorp\Vagrant\bin;D:\Go\bin;D:\Program Files\nodejs\;D:\Program Files\Microsoft VS Code\bin;C:\Users\zhangfengju\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\zhangfengju\AppData\Local\Programs\Python\Python36\;C:\Users\zhangfengju\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\zhangfengju\AppData\Local\Programs\Python\Python37\;C:\Users\zhangfengju\AppData\Local\Programs\Python\Python35\Scripts\;C:\Users\zhangfengju\AppData\Local\Programs\Python\Python35\;C:\Program Files\MySQL\MySQL Server 5.7\bin;D:\Program Files\Oracle\VirtualBox\VirtualBox.exe;E:\mongoDb\bin;D:\docker\Docker Toolbox;C:\Users\zhangfengju\go\bin;C:\Users\zhangfengju\AppData\Roaming\npm;.]
+2019-01-04 17:10:02.627 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-01-04 17:10:02.701 [main] DEBUG com.zaxxer.hikari.HikariConfig - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+2019-01-04 17:10:02.763 [main] DEBUG com.zaxxer.hikari.HikariConfig - HikariPool-1 - configuration:
+2019-01-04 17:10:02.765 [main] DEBUG com.zaxxer.hikari.HikariConfig - allowPoolSuspension.............false
+2019-01-04 17:10:02.765 [main] DEBUG com.zaxxer.hikari.HikariConfig - autoCommit......................true
+2019-01-04 17:10:02.765 [main] DEBUG com.zaxxer.hikari.HikariConfig - catalog.........................none
+2019-01-04 17:10:02.765 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionInitSql...............none
+2019-01-04 17:10:02.765 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionTestQuery.............none
+2019-01-04 17:10:02.765 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionTimeout...............30000
+2019-01-04 17:10:02.765 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSource......................none
+2019-01-04 17:10:02.765 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceClassName.............none
+2019-01-04 17:10:02.765 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceJNDI..................none
+2019-01-04 17:10:02.766 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceProperties............{password=<masked>}
+2019-01-04 17:10:02.766 [main] DEBUG com.zaxxer.hikari.HikariConfig - driverClassName................."com.mysql.cj.jdbc.Driver"
+2019-01-04 17:10:02.766 [main] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckProperties...........{}
+2019-01-04 17:10:02.766 [main] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckRegistry.............none
+2019-01-04 17:10:02.766 [main] DEBUG com.zaxxer.hikari.HikariConfig - idleTimeout.....................600000
+2019-01-04 17:10:02.766 [main] DEBUG com.zaxxer.hikari.HikariConfig - initializationFailTimeout.......1
+2019-01-04 17:10:02.766 [main] DEBUG com.zaxxer.hikari.HikariConfig - isolateInternalQueries..........false
+2019-01-04 17:10:02.766 [main] DEBUG com.zaxxer.hikari.HikariConfig - jdbcUrl.........................jdbc:mysql://localhost:13306/springboot?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=UTC
+2019-01-04 17:10:02.766 [main] DEBUG com.zaxxer.hikari.HikariConfig - leakDetectionThreshold..........0
+2019-01-04 17:10:02.766 [main] DEBUG com.zaxxer.hikari.HikariConfig - maxLifetime.....................1800000
+2019-01-04 17:10:02.766 [main] DEBUG com.zaxxer.hikari.HikariConfig - maximumPoolSize.................10
+2019-01-04 17:10:02.766 [main] DEBUG com.zaxxer.hikari.HikariConfig - metricRegistry..................none
+2019-01-04 17:10:02.766 [main] DEBUG com.zaxxer.hikari.HikariConfig - metricsTrackerFactory...........none
+2019-01-04 17:10:02.767 [main] DEBUG com.zaxxer.hikari.HikariConfig - minimumIdle.....................10
+2019-01-04 17:10:02.767 [main] DEBUG com.zaxxer.hikari.HikariConfig - password........................<masked>
+2019-01-04 17:10:02.767 [main] DEBUG com.zaxxer.hikari.HikariConfig - poolName........................"HikariPool-1"
+2019-01-04 17:10:02.767 [main] DEBUG com.zaxxer.hikari.HikariConfig - readOnly........................false
+2019-01-04 17:10:02.767 [main] DEBUG com.zaxxer.hikari.HikariConfig - registerMbeans..................false
+2019-01-04 17:10:02.767 [main] DEBUG com.zaxxer.hikari.HikariConfig - scheduledExecutor...............none
+2019-01-04 17:10:02.767 [main] DEBUG com.zaxxer.hikari.HikariConfig - schema..........................none
+2019-01-04 17:10:02.767 [main] DEBUG com.zaxxer.hikari.HikariConfig - threadFactory...................internal
+2019-01-04 17:10:02.767 [main] DEBUG com.zaxxer.hikari.HikariConfig - transactionIsolation............default
+2019-01-04 17:10:02.767 [main] DEBUG com.zaxxer.hikari.HikariConfig - username........................"root"
+2019-01-04 17:10:02.767 [main] DEBUG com.zaxxer.hikari.HikariConfig - validationTimeout...............5000
+2019-01-04 17:10:02.767 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-01-04 17:10:02.959 [main] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@250a9031
+2019-01-04 17:10:02.960 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-01-04 17:10:03.061 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+2019-01-04 17:10:03.067 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3abc20c1
+2019-01-04 17:10:03.070 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4e8b17f3
+2019-01-04 17:10:03.072 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@590157fc
+2019-01-04 17:10:03.074 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1bdfad85
+2019-01-04 17:10:03.077 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@67dff65e
+2019-01-04 17:10:03.079 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2661e3a6
+2019-01-04 17:10:03.082 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@44b14bf7
+2019-01-04 17:10:03.084 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@494c2f21
+2019-01-04 17:10:03.086 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@bf03dc6
+2019-01-04 17:10:03.087 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2019-01-04 17:10:03.499 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-01-04 17:10:03.535 [main] DEBUG org.apache.ibatis.io.VFS - Using VFS adapter org.mybatis.spring.boot.autoconfigure.SpringBootVFS
+2019-01-04 17:10:03.536 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.example.demo.domain.User matches criteria [is assignable to Object]
+2019-01-04 17:10:03.537 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Scanned package: 'com.example.demo.domain' for aliases
+2019-01-04 17:10:03.620 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [F:\java\SpringBoot\target\classes\mapping\UserMapper.xml]'
+2019-01-04 17:10:03.919 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-01-04 17:10:04.136 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8011"]
+2019-01-04 17:10:04.144 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-01-04 17:10:04.159 [main] INFO  com.example.demo.SpringBootDemoApplication - Started SpringBootDemoApplication in 3.137 seconds (JVM running for 5.123)
+2019-01-04 17:10:07.941 [http-nio-8011-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-04 17:10:08.042 [http-nio-8011-exec-1] INFO  com.example.demo.controller.UserController - 查询用户
+2019-01-04 17:10:08.048 [http-nio-8011-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-01-04 17:10:08.058 [http-nio-8011-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@30b485dd] was not registered for synchronization because synchronization is not active
+2019-01-04 17:10:08.068 [http-nio-8011-exec-1] DEBUG org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@986070407 wrapping com.mysql.cj.jdbc.ConnectionImpl@250a9031] will not be managed by Spring
+2019-01-04 17:10:08.070 [http-nio-8011-exec-1] DEBUG com.example.demo.mapper.UserMapper.Sel - ==>  Preparing: select * from user where id = ? 
+2019-01-04 17:10:08.094 [http-nio-8011-exec-1] DEBUG com.example.demo.mapper.UserMapper.Sel - ==> Parameters: 1(Integer)
+2019-01-04 17:10:08.108 [http-nio-8011-exec-1] DEBUG com.example.demo.mapper.UserMapper.Sel - <==      Total: 1
+2019-01-04 17:10:08.108 [http-nio-8011-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@30b485dd]
+2019-01-04 17:10:33.065 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
