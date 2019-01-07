@@ -16,7 +16,10 @@
         select * from user where id = #{id}
     </select>
     <select id="SelAll" resultType="com.example.demo.domain.User">
-        select * from user
+        select id,name from user
+    </select>
+    <select id="GetTotal" resultType="int">
+        select count(id) from user
     </select>
 
 </mapper>

@@ -9,6 +9,8 @@ import java.util.List;
 public interface UserMapper {
     User Sel(int id);
 
+    int GetTotal();
+
     int AddUser(User user);
 
     int DelUserById(int id);

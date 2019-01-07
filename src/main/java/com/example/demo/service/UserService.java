@@ -1,5 +1,6 @@
 package com.example.demo.service;
 
+import com.github.pagehelper.PageInfo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import com.github.pagehelper.PageHelper;
@@ -15,6 +16,10 @@ public class UserService {
 
     public User Sel(int id) {
         return userMapper.Sel(id);
+    }
+
+    public int GetTotal() {
+        return userMapper.GetTotal();
     }
 
     public List<User> SelAll(int pageNum, int pageSize) {

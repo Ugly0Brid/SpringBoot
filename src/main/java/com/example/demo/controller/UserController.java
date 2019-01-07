@@ -22,7 +22,7 @@ public class UserController {
     public JsonResult GetUser(int id) {
         logger.info("查询用户");
         try {
-            return JsonResult.successResult(2000, "成功", userService.Sel(id));
+            return JsonResult.successResult(2000, "成功", 0, userService.Sel(id));
         } catch (Exception e) {
             return JsonResult.errorResult(5000, "获取数据失败", null);
         }
@@ -33,7 +33,7 @@ public class UserController {
     public JsonResult GetUserAll(int pageNum, int pageSize) {
         try {
             List<User> userList = userService.SelAll(pageNum, pageSize);
-            return JsonResult.successResult(2000, "成功", userList);
+            return JsonResult.successResult(2000, "成功", userService.GetTotal(), userList);
         } catch (Exception e) {
             return JsonResult.errorResult(5000, "获取数据失败", null);
         }
@@ -44,9 +44,9 @@ public class UserController {
         try {
             boolean result = userService.AddUser(user);
             if (result) {
-                return JsonResult.successResult(2000, "增加成功", null);
+                return JsonResult.successResult(2000, "增加成功", 0, null);
             } else {
-                return JsonResult.successResult(2000, "增加失败", null);
+                return JsonResult.successResult(2000, "增加失败", 0, null);
             }
 
         } catch (Exception e) {
@@ -60,9 +60,9 @@ public class UserController {
         try {
             boolean result = userService.DelUserById(id);
             if (result) {
-                return JsonResult.successResult(2000, "删除数据成功", "成功");
+                return JsonResult.successResult(2000, "删除数据成功", 0, "成功");
             } else {
-                return JsonResult.successResult(2000, "删除数据失败", "失败");
+                return JsonResult.successResult(2000, "删除数据失败", 0, "失败");
             }
         } catch (Exception e) {
             return JsonResult.errorResult(5000, "删除数据数据失败", null);
